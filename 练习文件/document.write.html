@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // document.write()方法可以向HTML输出流中插入你传入的内容，浏览器会按着HTML元素依次顺序依次解析他们
+        // 并显示出来  需要注意的是，如果在文档加载完成后（即HTML输出已完成），在使用docuemnt.write()方法来
+        // 要求浏览器来解析你的内容  则浏览器就会重写整个docuemnt，导致最后的整个docuemnt。write()
+        // 方法输出的内容会覆盖之前所有内容
+        document.write("我被写入了HTML输出流，但被下面的覆盖了")
+        window.onload = function(){
+            document.write('是的，被我覆盖了')
+        }
+    </script>
+</body>
+</html>
