@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box .ps::before {
+            content: "01";
+            display: block;
+            height: 50px;
+            background-color: darkorange;
+        }
+
+        .box .ps::after {
+            content: "0";
+            display: block;
+            height: 50px;
+            background-color: darkorange;
+        }
+
+        .ps::first-letter {
+            color: deepskyblue;
+        }
+
+        .ps:first-line {
+            color:forestgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <p class="ps">这是一个段落内容</p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+</body>
+
+</html>

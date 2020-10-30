@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+            border: 1px solid #111111;
+        }
+        .box2{
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+            box-sizing: content-box;
+            padding: 10px;
+            margin: 0px  50px;
+            border: 1px solid #111111;
+        }
+        .box3{
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+            box-sizing: border-box;
+            padding: 10px;
+            border: 1px solid #111111;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2">content-box标准模式</div>
+    <div class="box3">border-box 怪异模式</div>
+</body>
+</html>
