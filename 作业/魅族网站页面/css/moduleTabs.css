@@ -1,0 +1,51 @@
+.module-tabs{
+    width: 100%;
+    height: 140px;
+}
+
+.module-tabs .module{
+    float: left;
+    width: 100%;
+    height: 140px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .module-tabs .module .whole{
+    margin-right: 20px;
+} */
+.module-tabs .module li{
+    float: left;
+    display:block;
+    height: 140px;
+}
+
+.module-tabs .module .first .tabs{
+    float: left;
+    width: 244px;
+    height: 140px;
+    background-color: #F9F9F9;
+}
+
+.module-tabs .module .first .tabs li{
+    float: left;
+    position: relative;
+    width: 122px;
+    height: 70px;
+    text-align: center;
+}
+.module-tabs .module .first .tabs li img{
+    position: absolute;
+    top: 14px;
+    left: 49px;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+.module-tabs .module .first .tabs li span{
+    position: absolute;
+    top: 45px;
+    left: 38px;
+    font-size: 12px;
+    color: #333333;
+}

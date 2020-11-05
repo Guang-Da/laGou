@@ -1,0 +1,62 @@
+.footer {
+    width: 100%;
+    height: 296px;
+    background-color: #FAFAFC;
+}
+
+.footer .top {
+    /* float: left; */
+    width: 1240px;
+    height: 181px;
+    padding-left: 92px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.footer .top dl {
+    float: left;
+    width: 230px;
+    height: 120px;
+    margin-top: 32px;
+}
+
+.footer .top dl dt {
+    height: 23px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 23px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.footer .top dl dd a {
+    display: block;
+    height: 23px;
+    line-height: 23px;
+    font-size: 12px;
+    color: #555555;
+}
+
+.footer .top dl dd .telephone{
+    font-size: 25px;
+    color: #1FA7EA;
+    margin-top: 25px;
+}
+
+.footer .top dl dd .hotline{
+    width: 160px;
+    height: 35px;
+    line-height: 35px;
+    background-color:  #1FA7EA;
+    margin-top: 15px;
+    text-align: center;
+}
+.footer .bottom{
+    width: 1240px;
+    height: 114px;
+    line-height: 114px;
+}
+.footer .bottom p{
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
